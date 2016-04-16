@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$('#ms').text(ms); 
 
 
-//Change the background to a random color every 5 minutes.
+    //Changing the background to a random color every 5 minutes.
    
     randomBackground = function(){
       var r1 = Math.floor(Math.random() * (256))    
@@ -28,8 +28,8 @@ $(document).ready(function(){
     };
      randomBackground();
 
-  //Change the text color to white 
-  //if it is an odd minute and another color if it is even minute.
+   //Changing the text color to white 
+   //if it is an odd minute and another color if it is even minute.
 
     if (min % 2 === 0) {      
       $("#min").css("color", "blue");
@@ -42,9 +42,9 @@ $(document).ready(function(){
      
     // };
 
-//Change the text color of "What time is it?"
-//to a different color every hour, selected 
-//from an array of colors.
+   //Changing the text color of "What time is it?"
+   //to a different color every hour, selected 
+   //from an array of colors.
 
     var renCol = ["black","red","orange"];
 
